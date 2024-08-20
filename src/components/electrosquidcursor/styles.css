@@ -1,0 +1,45 @@
+.colsel {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.colsel h1{
+  color: #fff;
+  font-size:x-large;
+  -webkit-text-stroke:1px cadetblue;
+  -webkit-text-fill-color:#fff;
+}
+/* webkit text stroke properties above outline the text
+ so it still shows up on light colors */
+.colorbtn-group {
+    background-color: cadetblue;
+    color: black;
+    border: 1px solid azure;
+    border-radius: 4px;
+    padding: 10px 10px;
+    float:left;
+    cursor: pointer;
+}
+/* Clear floats (clearfix hack) */
+.colorbtn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  /*} */
+  
+  /* Add a background color on hover */
+  .colorbtn-group button:hover {
+    background-color: azure;
+  }
+.colorbtn {
+    border: 1px solid azure;
+    margin-right: 10px;
+}
+

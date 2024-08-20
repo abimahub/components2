@@ -1,3 +1,8 @@
+<h1>Components 2</h1>
+More exciting adventures creating React components!
+
+(app created by cloning apping boilerplate)
+
 CREATE A REACT APP FROM SCRATCH - USING WEBPACK
 
 1 - First set up the folder for the App, then open a terminal in the folder, and initialise (creates package.json): 

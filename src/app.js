@@ -1,4 +1,7 @@
-import React from 'react';
+import * as React from 'react';
+import RenderDragDrop from './components/DragNDrop/AllowDrop';
+import DragDrop from './components/DragNDrop';
+import MultiDrop from './components/DragNDrop/MultiDrop';
 "use client";
 import './app.css';
 
@@ -8,6 +11,12 @@ function App() {
     <h1>
      Created a react app from scratch
     </h1>
+    
+    <RenderDragDrop />
+    
+    <DragDrop />
+    
+    <MultiDrop />
     </>
   )
 };
